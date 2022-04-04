@@ -12,12 +12,15 @@ a {
     color: var(--text-color);
 }
 .navbar {
+    position: sticky;
+    top:0px;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: flex-start;
     align-items: center;
     background-color: var(--background-color);
     padding: 8px 12px;
+
 }
 .navbar__logo {
    font-size: 24px;
@@ -68,4 +71,9 @@ a {
             /* width: 50%;
             margin-left: 0px; */
     }
+}
+
+
+.main {
+
 }
