@@ -1,0 +1,30 @@
+.main {
+    height: 100%;
+}
+
+.main > div {
+    border-radius: 40px;
+    /* box-shadow: 10px; */
+    box-shadow: 0px 2px 10px #d0d3d9;
+    height: 85vh;
+    width: 80%;
+    /* display: flex; */
+    margin-left: 10%;
+    margin-top: 3vh;
+    padding-top: 2vh;
+    
+}
+
+.profile {
+    width: 90%;
+    height: 10%;
+    /* margin-top: 15%; */
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 2px solid #d0d3d9d1; 
+    /* box-shadow: 0px 2px 10px #d0d3d9; */
+}
+
+#img {
+    background-image: url('img.png');
+}

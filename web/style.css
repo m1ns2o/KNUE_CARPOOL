@@ -54,6 +54,7 @@ a {
             align-items: flex-start;
             padding: 8px 24px;
     }
+    
     .navbar__menu {
             display: none;
             flex-direction: column;
@@ -61,18 +62,22 @@ a {
             width: 100%;
             right: 0px;
     }
+
     .navbar__menu li {
             width: 100%;
             text-align: center;
     }
+
     .navbar__toggleBtn {
              display: block;
      }
+
     .navbar__menu.active {
             display: flex;
             /* width: 50%;
             margin-left: 0px; */
     }
+    
 }
 
 
