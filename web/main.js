@@ -6,3 +6,13 @@ toggleBtn.addEventListener('click', () => {
         menu.classList.toggle('active');
         // sns.classList.toggle('active');
 });
+
+function changeIframeUrl(url)
+
+{
+
+    document.getElementById("main_frame").src = url;
+
+}
+
+

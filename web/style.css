@@ -1,7 +1,8 @@
 :root {
-    --text-color: #f0f4f5;
-    --background-color: #2685bb;
-    --accent-color: #f0f4f5;
+    --text-color: #fff7ff;
+    /* --background-color: #2685bb; */
+    --background-color : #d1c4e9;
+    --accent-color: #fff7ff;
 }
 body {
     margin: 0;
@@ -58,6 +59,7 @@ a {
             flex-direction: column;
             align-items: center;
             width: 100%;
+            right: 0px;
     }
     .navbar__menu li {
             width: 100%;
@@ -74,6 +76,4 @@ a {
 }
 
 
-.main {
 
-}
