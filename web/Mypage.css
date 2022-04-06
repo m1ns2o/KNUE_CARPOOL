@@ -24,7 +24,7 @@
 .profile img {
   border-radius: 50%;
   height: 80px;
-  background-color: rgb(156, 151, 151);
+  background-color: #d0d3d9;
   background-size: cover;
 }
 .profile__info {
