@@ -3,16 +3,10 @@ const menu = document.querySelector('.navbar__menu');
 // const sns = document.querySelector('.navbar__sns');
 
 toggleBtn.addEventListener('click', () => {
-        menu.classList.toggle('active');
-        // sns.classList.toggle('active');
+  menu.classList.toggle('active');
+  // sns.classList.toggle('active');
 });
 
-function changeIframeUrl(url)
-
-{
-
-    document.getElementById("main_frame").src = url;
-
+function changeIframeUrl(url) {
+  document.getElementById('main_frame').src = url;
 }
-
-
